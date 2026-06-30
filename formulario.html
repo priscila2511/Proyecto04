@@ -38,35 +38,50 @@
         aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%">75%</div>
     </div>
+    <br>
 
     <div class="contenedor">
+        <div class="container mt-3 p-3 my-3 bg-secondary text-white">
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre">
 
-        <form>
+                </div>
 
-            <div class="mb-3">
-                <label for="name" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombre">
-                
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+
+                <div class="mb-3">
+                    <label for="telefono" class="form-label">Telefono</label>
+                    <input type="text" class="form-control" id="telefono" name="telefono">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
     </div>
 
+    <br>
+    
+    <div class="contenedor">
+        <nav aria-label="...">
+            <ul class="pagination pagination-sm">
+                <li class="page-item">
+                    <a class="page-link" aria-current="page" href="index.html">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="producto.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="formulario.html">3</a></li>
+            </ul>
+        </nav>
+    </div>
 
+    <br>
 
-
-
-
-    <div class="container p-2 text-white"> <!--Aqui me falta agregar lo que va en class-->
-        <p class="pie">&copy; 2026 Technological Work - Todos los derechos reservados.</p>
+    <div class="container p-2 my-2 bg-secondary text-white">
+        <p class="p">&copy; 2026 Technological Work - Todos los derechos reservados.</p>
     </div>
 
 </body>
